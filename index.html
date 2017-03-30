@@ -1,0 +1,16 @@
+---
+layout: homepage
+title: Mcc's Page
+---
+<!--homepage content begin-->
+<section class="main-content">
+  <h2 id="welcome-to-github-pages">Posts list:</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "  [%F]" }}
+      </li>
+    {% endfor %}
+    </ul>
+<!--homepage content end-->
