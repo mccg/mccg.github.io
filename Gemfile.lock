@@ -201,6 +201,7 @@ PLATFORMS
 DEPENDENCIES
   execjs
   github-pages
+  jemoji
   therubyracer
 
 BUNDLED WITH
