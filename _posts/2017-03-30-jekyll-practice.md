@@ -53,6 +53,6 @@ categories: jekyll
 A: 请参见[此链接](http://stackoverflow.com/questions/41254582/overriding-css-on-github-pages-using-slate-theme)，
 但是请注意**好像**只有这一种方法能奏效，我本想替换为格式更优美一点的 `Sass`, 然而并没有成功:broken_heart:……
 
-
+>### 未完待续...
 
 
