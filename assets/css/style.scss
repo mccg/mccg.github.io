@@ -22,5 +22,13 @@ html, body { font-family: Consolas, "Microsoft Yahei", sans-serif; }
 @media screen and (max-width: 42em) { .main-content { font-size: 0.9rem; } }
 .nav-empty-block { height: 4rem; }
 @media screen and (max-width: 42em) { .nav-empty-block { height: 7.7rem; } }
+.post-tag { background: #cceaf8; border-color: #73c5ec;
+            display: inline-block; min-width: 1.2rem; vertical-align: baseline;
+            margin-left: 0.8rem; border-radius: 0.2rem; border-left: 0.2rem solid; 
+            padding-left: 0.5rem; padding-right: 0.3rem; }
+.datetime-tag { background: rgba(193, 132, 47, 0.16); border-color: rgba(134, 81, 0, 0.68);
+                margin-left: 1.4rem; padding-left: 0.5rem; padding-right: 0.4rem;
+                border-radius: 0.2rem; display: inline-block; border-left: 0.2rem solid; }
 .site-footer-owner { text-align: center; }
 .site-footer { padding-top: 1rem; border-top: solid 2px #e0f0f1; }
+

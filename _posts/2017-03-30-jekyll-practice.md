@@ -1,26 +1,29 @@
 ---
 layout: post
 title: "Jekyll实践: Github Pages"
-categories: jekyll
+category: Dev
+tags: ["jekyll", "web"]
+date: 2017-03-30
 ---
-# {{ page.title }}
----
->**简介**: 最近了解了一个名为 `liquid` 的模板引擎，
+
+>**简介**: 
+最近了解了一个名为 `liquid` 的模板引擎，
 发现 [**jekyll**](https://jekyllrb.com/) 使用的就是这个模板引擎，
 而 github pages 就是用 jekyll 来驱动的。
-所以就来试着搞个 github pages 吧！
+所以就使用 jekyll 来试着搞个 github pages 吧！
 的本篇并不拘泥于详尽的搭建教程，
 不过是记录了一下作者在搭建的过程中的一些信息,
 具体的步骤参见官方文档就好了。
 
-## **---1---  github.io --> jekyll**
+
+## **---1---  github.io ( 使用 jekyll )**
 
 #### 如果只是想搭建一个最简单的 github.io 页面，只要：
   - 根据官方文档的步骤创建一个 repo
   - 设定一个主题风格
   - 在 README.md 编辑 markdown 格式的内容
 
-#### 如果要做复杂一点的界面，并且做一些定制，那么就要：
+#### 如果要做复杂一点的界面，并且使用 jekyll 做一些定制，那么就要：
  - 搭建 jekyll 的基础环境(这步对于 Ruby 开发者是很轻松的)
    - `ruby`
    - `bundler`
@@ -35,6 +38,13 @@ categories: jekyll
  - :clipboard: [markdown-cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  - :pencil: [markdown-online-editor](https://jbt.github.io/markdown-editor/)
  - :smiling_imp:  [emoji-cheetsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+>##### 关于 `Hexo`:
+github pages 同样可以使用 `Hexo` 来搭建，
+它的方式就是按 `Hexo` 的规则编辑完成页面后，
+使用模板引擎先导出为目标文件，
+(在 `jekyll` 中，默认的导出文件夹是 `_site`)
+然后将这些文件 push 到 github repository 上。
 
 ---
 ## **---2---  完成 jekyll 开发环境的代码**
