@@ -6,6 +6,7 @@ title: Mcc's Page
 <section class="main-content">
   <h2 id="welcome-to-github-pages">Posts list:</h2>
   <ul>
+    <hr>
     {% for post in site.posts %}
     <li><a href="{{ post.url }}"><h1>{{ post.title }}</h1></a></li>
       <div>
@@ -16,7 +17,7 @@ title: Mcc's Page
       </div>
       <h3></h3>
       <div>{{ post.excerpt }}</div>
-      <hr><hr>
+      <hr>
     {% endfor %}
   </ul>
 </section>
