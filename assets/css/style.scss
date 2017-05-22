@@ -2,7 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-
+li { list-style:none; }
+a { text-decoration:none; }
 html, body { font-family: Consolas, "Microsoft Yahei", sans-serif; }
 .page-header { background-image: linear-gradient(120deg, #eac90b, #a91165, #08c6e4) }
 @media screen and (min-width: 64em) { .page-header { padding: 3rem 2rem; } }

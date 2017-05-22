@@ -67,7 +67,7 @@ A: 请参见[此链接](http://stackoverflow.com/questions/41254582/overriding-c
 
 ### 模板中的 `Front Matter` 标记
 两个三横线是模板文件前置的标记，
-其实 `---`也是 `YAML` 文件的默认的起始符号 ，
+其实 `---`也是 `YAML` 文件的默认的起始符号，
 你可以在任何模板文件中使用 `Front Matter` 格式。比如：
 ```
 ---
