@@ -6,11 +6,14 @@ li { list-style:none; }
 a { text-decoration:none; }
 a:hover { text-decoration: none; }
 html, body { font-family: Consolas, "Microsoft Yahei", sans-serif; }
-.page-header { background-image: linear-gradient(120deg, #eac90b, #a91165, #08c6e4) }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #664e4e; }
+.page-header { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); 
+               box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.2); }
 @media screen and (min-width: 64em) { .page-header { padding: 3rem 2rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1.5rem 1rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 1.2rem 0.6rem; } }
-.nav-header { position: fixed; background-image: linear-gradient(30deg, #eac90b, #a91165, #08c6e4); 
+.nav-header { position: fixed; background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); 
+              box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.1);
               width: 100%; margin:auto; height: 4rem; float: left; }
 @media screen and (min-width: 64em) { .nav-header { padding: 0.4rem 8rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .nav-header { padding: 0.4rem 4rem; }
