@@ -5,7 +5,10 @@
 li { list-style:none; }
 a { text-decoration:none; }
 a:hover { text-decoration: none; }
-html, body { font-family: Consolas, "Microsoft Yahei", sans-serif; }
+html, body {
+  font-family: "Microsoft Yahei";
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #664e4e; }
 .page-header { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); 
                box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.2); }
