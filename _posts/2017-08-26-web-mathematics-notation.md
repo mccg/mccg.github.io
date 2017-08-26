@@ -12,7 +12,7 @@ date: 2017-08-26
 
 ## Getting Started
  - MathJax 的文档地址：[mathjax-getting-started](http://docs.mathjax.org/en/latest/start.html#getting-started)
- - 将下面的代码加入到`<h$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$ead>`中去，样就可以在`<body>`中按照 MathJax 的符号写入数学公式了。
+ - 将下面的代码加入到`<head>`中去，样就可以在`<body>`中按照 MathJax 的符号写入数学公式了。
  - ```html
    <script type="text/javascript" async
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
