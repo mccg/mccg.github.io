@@ -77,6 +77,9 @@ A: 请参见[此链接](http://stackoverflow.com/questions/41254582/overriding-c
 【是要根据当前模板文件的后缀名来决定。】
 ```
 
->### 未完待续...
+## **--3-- jekyll plugins**
 
-
+jekyll 支持在 `_config.yml` 文件中通过配置 `plugins` 来配置插件。
+也可以将 `*.rb` 插件写在 `_plugins` 文件夹下，或者通过安装 Gem 来引用 ruby 代码，
+jekyll 启动的时候会先加载 `_plugins` 中的代码。
+不过，如果您将站点搭建在 github repository 上，**任何非官方的插件都是不会被加载的**！
