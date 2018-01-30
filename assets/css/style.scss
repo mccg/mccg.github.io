@@ -40,4 +40,6 @@ html, body {
                 border-radius: 0.2rem; display: inline-block; border-left: 0.2rem solid; }
 .site-footer-owner { text-align: center; }
 .site-footer { padding-top: 1rem; border-top: solid 2px #e0f0f1; }
-
+@media screen and (min-width: 64em) { .disqus_comments { padding: 5rem 2rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .disqus_comments { padding: 3rem 1rem; } }
+@media screen and (max-width: 42em) { .disqus_comments { padding: 2rem 1rem; } }

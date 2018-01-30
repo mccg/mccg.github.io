@@ -4,6 +4,8 @@ title: "Jekyll 实践: Github Pages"
 category: Dev
 tags: ["jekyll", "web"]
 date: 2017-03-30
+comments: true
+
 ---
 
 >**引言**:

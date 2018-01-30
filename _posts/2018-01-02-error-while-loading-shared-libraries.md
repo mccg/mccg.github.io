@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "解决 error while loading shared libraries"
+title: "Getting over \"error while loading shared libraries\""
 category: Dev
 tags: ["linux", "ldconfig"]
 date: 2018-01-01
+
 ---
 
 >**引言**:

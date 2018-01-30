@@ -4,6 +4,9 @@ title: "如何在 Web 页支持数学符号"
 category: Dev
 tags: ["javascript", "jekyll", "web"]
 date: 2017-08-26
+mathjax: true
+comments: true
+
 ---
 
 >**引言**:

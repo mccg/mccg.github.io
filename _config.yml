@@ -2,3 +2,7 @@ theme: jekyll-theme-cayman
 host: 0.0.0.0
 plugins:
   - jemoji
+disqus:
+  enable: true
+  short_name: mccg-github-io
+google_analytics: true
