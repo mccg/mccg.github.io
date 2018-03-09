@@ -18,7 +18,7 @@ comments: true
  - 将下面的代码加入到`<head>`中去，样就可以在`<body>`中按照 MathJax 的符号写入数学公式了。
  - ```html
    <script type="text/javascript" async
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
    </script>
    ```
 

@@ -10,19 +10,21 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Code Pro'; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #664e4e; }
-.page-header { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); 
+.main-content code { padding: 1px 4px; color: #d80044; }
+.main-content blockquote :first-child {margin-top: 1rem;}
+.page-header { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
                box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.2); }
 @media screen and (min-width: 64em) { .page-header { padding: 3rem 2rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1.5rem 1rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 1.2rem 0.6rem; } }
-.nav-header { position: fixed; background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); 
+.nav-header { position: fixed; background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
               box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.1);
               width: 100%; margin:auto; height: 4rem; float: left;
               z-index: 100;}
 @media screen and (min-width: 64em) { .nav-header { padding: 0.4rem 8rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .nav-header { padding: 0.4rem 4rem; }
                                                             .btn { padding: 0.75rem; font-size: 1rem; } }
-@media screen and (max-width: 42em) { .nav-header { padding: 0.4rem 0.6rem; height: 7.7rem; } 
+@media screen and (max-width: 42em) { .nav-header { padding: 0.4rem 0.6rem; height: 7.7rem; }
                                       .btn { font-size: 1rem; display: inline-block; margin-bottom: 0.6rem; }
                                       .btn + .btn { margin-top: 0rem; } }
 .main-content { letter-spacing: 0.1rem; }
@@ -33,7 +35,7 @@ html, body {
 @media screen and (max-width: 42em) { .nav-empty-block { height: 7.7rem; } }
 .post-tag { background: #cceaf8; border-color: #73c5ec;
             display: inline-block; min-width: 1.2rem; vertical-align: baseline;
-            margin-left: 0.8rem; border-radius: 0.2rem; border-left: 0.2rem solid; 
+            margin-left: 0.8rem; border-radius: 0.2rem; border-left: 0.2rem solid;
             padding-left: 0.5rem; padding-right: 0.3rem; }
 .datetime-tag { background: rgba(193, 132, 47, 0.16); border-color: rgba(134, 81, 0, 0.68);
                 margin-left: 1.4rem; padding-left: 0.5rem; padding-right: 0.4rem;
