@@ -10,7 +10,7 @@ comments: true
 
 >**引言**:
 最近了解了一个名为 `liquid` 的模板引擎，
-发现 [**jekyll**](https://jekyllrb.com/) 使用的就是这个模板引擎引言而 github pages 就是用 jekyll 来驱动的。
+发现 [**jekyll**](https://jekyllrb.com/) 使用的就是这个模板引擎, 而 github pages 就是用 jekyll 来驱动的。
 所以就使用 jekyll 来试着搞个 github pages 吧！
 的本篇并不拘泥于详尽的搭建教程，
 不过是记录了一下作者在搭建的过程中的一些信息,
