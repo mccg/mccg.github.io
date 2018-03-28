@@ -11,7 +11,7 @@ html, body {
   font-family: 'Source Code Pro'; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: #664e4e; }
 .main-content code { padding: 1px 4px; color: #d80044; }
-.main-content blockquote :first-child {margin-top: 1rem;}
+ul :last-child { margin-bottom: 1rem; }
 .page-header { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
                box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.2); }
 @media screen and (min-width: 64em) { .page-header { padding: 3rem 2rem; } }

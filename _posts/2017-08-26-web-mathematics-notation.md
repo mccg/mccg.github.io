@@ -22,7 +22,10 @@ comments: true
    </script>
    ```
 
- - > 按照文档中的说明，javascript 库的地址可以在 [cdnjs.com](https://cdnjs.com) 查询得到。
+ - > 按照文档中的说明，javascript 库的地址可以在 [cdnjs.com](https://cdnjs.com) 查询得到.
+     在实际应用的过程中, 遇到了2个问题:
+     - ``1.`` 加载不了``MathJax.js``. 解决方案: 将 https 改为 http.
+     - ``2.`` 输出方式为 HTML 的时候格式被页面 css 控制了. 解决方案: 改为SVG输出，i.e.``config=TeX-AMS_SVG``.
 
 ## 数学公式
 
