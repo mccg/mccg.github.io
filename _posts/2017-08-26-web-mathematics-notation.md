@@ -14,7 +14,7 @@ comments: true
 所以根据 jekyll 的官方文档找到了一个专门渲染数学符号的 `javascript` 库 --- MathJax.
 
 ## Getting Started
- - MathJax 的文档地址：[mathjax-getting-started](http://docs.mathjax.org/en/latest/start.html#getting-started)
+ - MathJax 的文档地址：[mathjax-getting-started](https://docs.mathjax.org/en/latest/start.html#getting-started)
  - 将下面的代码加入到`<head>`中去，样就可以在`<body>`中按照 MathJax 的符号写入数学公式了。
  - ```html
    <script type="text/javascript" async
@@ -24,7 +24,7 @@ comments: true
 
  - > 按照文档中的说明，javascript 库的地址可以在 [cdnjs.com](https://cdnjs.com) 查询得到.
      在实际应用的过程中, 遇到了2个问题:
-     - ``1.`` 加载不了``MathJax.js``. 解决方案: 将 https 改为 http.
+     - ``1.`` 加载不了``MathJax.js``.
      - ``2.`` 输出方式为 HTML 的时候格式被页面 css 控制了. 解决方案: 改为SVG输出，i.e.``config=TeX-AMS_SVG``.
 
 ## 数学公式

@@ -7,6 +7,7 @@ date: 2018-02-09
 comments: true
 
 ---
+
 >**Summary**:
 There's a need to define some struct's type and some logics are going to use it.
 It's similar to [``enumerize``](https://github.com/brainspec/enumerize) gem in ruby and something like ``enum`` in C++.
@@ -92,6 +93,6 @@ On reflection, I found an approach to create a ``deftype`` macro.
     end
   end
   ```
-  It's a little bit inconvenient to require "XXXType" everytime you use it in a new module.
+  It's a little bit inconvenient to require "XXXType" eachtime you use it in a new module.
   On the bright side, code becomes more clean when you define enumeration.
 
