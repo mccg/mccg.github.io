@@ -38,8 +38,9 @@ ul :last-child { margin-bottom: 1rem; }
             margin-left: 0.8rem; border-radius: 0.2rem; border-left: 0.2rem solid;
             padding-left: 0.5rem; padding-right: 0.3rem; }
 .datetime-tag { background: rgba(193, 132, 47, 0.16); border-color: rgba(134, 81, 0, 0.68);
-                margin-left: 1.4rem; padding-left: 0.5rem; padding-right: 0.4rem;
+                margin-left: 0.8rem; padding-left: 0.5rem; padding-right: 0.4rem;
                 border-radius: 0.2rem; display: inline-block; border-left: 0.2rem solid; }
+.post-tag, .datetime-tag { margin-bottom: 0.2rem; }
 .site-footer-owner { text-align: center; }
 .site-footer { padding-top: 1rem; border-top: solid 2px #e0f0f1; }
 @media screen and (min-width: 64em) { .disqus_comments { padding: 5rem 2rem; } }
