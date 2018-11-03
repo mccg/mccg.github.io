@@ -9,8 +9,9 @@ comments: true
 ---
 
 >**Summary**:
-There's a need to define some struct's type and some logics are going to use it.
-It's similar to [``enumerize``](https://github.com/brainspec/enumerize) gem in ruby and something like ``enum`` in C++.
+There is a need to define a ``struct``'s type, then some logic will use it.
+The concept is similar to [``enumerize``](https://github.com/brainspec/enumerize) gem in ruby and something like ``enum`` in C++.
+However, ``Enum`` in elixir is a module that related to enumerable things.
 On reflection, I found an approach to create a ``deftype`` macro.
 
 ## Functionality we need in elixir
@@ -31,7 +32,7 @@ On reflection, I found an approach to create a ``deftype`` macro.
     }
   };
   ```
-- In elixir, I'd like to use ``Browser.Type.firefox`` as the value of browser's type:
+- In elixir, I'd like to use format like ``Browser.Type.firefox`` as the value of browser's type:
   ```elixir
   defmodule Browser do
     defstruct type: Browser.Type.unknown, other_props: nil
@@ -45,8 +46,7 @@ On reflection, I found an approach to create a ``deftype`` macro.
   Now, we have to finish the rest of the codes to make codes above work.
 
 ## To implement a ``deftype``
-- Let's define a module ``Deftype``. Then let ``deftype`` define a new module.
-  By using ``use Deftype.Use, unquote(opts)``,
+- First, by using ``use Deftype.Use, unquote(opts)``,
   we are able to define macros inside "Type" module.
 
 - ``deftype.ex``:
@@ -73,7 +73,8 @@ On reflection, I found an approach to create a ``deftype`` macro.
     end
   end
   ```
-  Then we add codes into ``browser.ex``, so the completed file is:
+  Let's use ``deftype`` in practice.
+  After adding codes into ``browser.ex``, the completed file should be:
   ```elixir
   import Deftype
   deftype Browser.Type,
@@ -93,6 +94,7 @@ On reflection, I found an approach to create a ``deftype`` macro.
     end
   end
   ```
-  It's a little bit inconvenient to require "XXXType" eachtime you use it in a new module.
-  On the bright side, code becomes more clean when you define enumeration.
+  Don't forget to require "XXXType" eachtime you use it in a new module.
+  Now, code becomes more clean when you define enumeration.
+  By this way, you don't have to define function or macro anymore to declare something's type.
 
