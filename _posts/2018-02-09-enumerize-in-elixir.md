@@ -94,7 +94,7 @@ On reflection, I found an approach to create a ``deftype`` macro.
     end
   end
   ```
-  Don't forget to require "XXXType" eachtime you use it in a new module.
+  Don't forget to require "XXXType" when you use it in a new module.
   Now, code becomes more clean when you define enumeration.
   By this way, you don't have to define function or macro anymore to declare something's type.
 
