@@ -11,9 +11,9 @@ comments: true
 >**Summary**:
 - I have achieved 13 wins in the world tournament of Clash Royale recently.
   I am curious about how is my skill level among all competitors.
-  So, I write some code to simulate win/lose in a game tournament.
+  So, I write some code to simulate win/lose in a game's tournament.
 
-- Games like Clash Royale, have a 1v1 tournament mode:
+- There are 1v1 tournament/challenge modes in games like Clash Royale:
   - :mag: Player is able to enter a Challenge and battle in this Challenge.
   - :mag: The player will be matched with another player who have the same number of wins.
   - :mag: Once the player get certain number of wins or certain number losses, the Challenge will end.
