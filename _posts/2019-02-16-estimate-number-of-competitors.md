@@ -109,8 +109,8 @@ comments: true
   37 wins,        1 players. [top   0.000002%]
   38 wins,        0 players. [top   0.000000%]
   ```
-  Actual number of players will be less than results above.
-  For example, many players might not use all of chances and top players have special cases.
+  Actual total number of players will be more than results above.
+  For example, many players might not use all of chances.
   If we want classic challenge simulation, we can just modify ``max_wins`` and ``max_losses``.
   Here is my output with ``max_wins = 12``, ``max_losses=3``, ``num_player = 10000000``:
   ```text
