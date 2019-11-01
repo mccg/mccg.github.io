@@ -29,13 +29,13 @@ comments: true
   max_losses = 5
   num_player = 65000000
 
-  mutable struct 𝐒
+  mutable struct S
     wins:: Int
     losses:: Int
     count_player:: Int
   end
 
-  T = [𝐒(i, j, 0) for i = 0:max_wins for j = 0:max_losses if !(i == max_wins && j == max_losses)]
+  T = [S(i, j, 0) for i = 0:max_wins for j = 0:max_losses if !(i == max_wins && j == max_losses)]
 
   add(A, w, l, c) = (A[w * (max_losses + 1) + l + 1].count_player += c)
 
