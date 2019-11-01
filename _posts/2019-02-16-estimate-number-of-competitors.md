@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to estimate number of tournament competitors?"
+title: "How to estimate the number of tournament competitors?"
 category: Math
 tags: ["clash royale", "tournament", "julia"]
 date: 2019-02-16
@@ -14,14 +14,14 @@ comments: true
   So, I write some code to simulate win/lose in a game's tournament.
 
 - There are 1v1 tournament/challenge modes in games like Clash Royale:
-  - :mag: Player is able to enter a Challenge and battle in this Challenge.
-  - :mag: The player will be matched with another player who have the same number of wins.
-  - :mag: Once the player get certain number of wins or certain number losses, the Challenge will end.
+  - :mag: Player can enter a Challenge and battle in this Challenge.
+  - :mag: The player will be matched with another player who has the same number of wins.
+  - :mag: Once the player gets the certain number of wins or certain number losses, the Challenge will end.
   - :mag: If the two players are tied, then there is no win or lose cumulation.
 
 - In classic challenge or grand challenge, ending condition is 12 wins and 3 losses.
-  In latest world tournament, ending condition is 5 losses(no wins limit).
-  The following is my Julia code of estimating number of players in the world tournament.
+  In the latest world tournament, ending condition is 5 losses(no wins limit).
+  The following is my Julia code of estimating the number of players in the world tournament.
   ```julia
   using Printf
 
@@ -63,9 +63,9 @@ comments: true
   end
   ```
   The best player got 37 wins, so I set ``max_wins`` to 38 and set ``max_losses`` to 5.
-  Then adjust ``num_player`` to approach actual ranking situation.
-  Player is matched who has same wins as well as losses in my algorithm.
-  Thus some player who has same wins but different losses won't be match finally.
+  Then adjust ``num_player`` to approach the actual ranking situation.
+  The player is matched who has same wins as well as losses in my algorithm.
+  Thus some player who has same wins but different losses won't be matched finally.
   These numbers will be very small. So we can just ignore it.
   Here is my output:
   ```text
@@ -109,8 +109,8 @@ comments: true
   37 wins,        1 players. [top   0.000002%]
   38 wins,        0 players. [top   0.000000%]
   ```
-  Actual total number of players will be more than results above.
-  For example, many players might not use all of chances.
+  Actual total number of players will be more than the results above.
+  For example, many players might not use all of the chances.
   If we want classic challenge simulation, we can just modify ``max_wins`` and ``max_losses``.
   Here is my output with ``max_wins = 12``, ``max_losses=3``, ``num_player = 10000000``:
   ```text

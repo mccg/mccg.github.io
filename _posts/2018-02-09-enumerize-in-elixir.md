@@ -11,7 +11,7 @@ comments: true
 >**Summary**:
 There is a need to define a ``struct``'s type, then some logic will use it.
 The concept is similar to [``enumerize``](https://github.com/brainspec/enumerize) gem in ruby and something like ``enum`` in C++.
-However, ``Enum`` in elixir is a module that related to enumerable things.
+However, ``Enum`` in Elixir is a module that related to enumerable things.
 On reflection, I found an approach to create a ``deftype`` macro.
 
 ## Functionality we need in elixir
@@ -47,7 +47,7 @@ On reflection, I found an approach to create a ``deftype`` macro.
 
 ## To implement a ``deftype``
 - First, by using ``use Deftype.Use, unquote(opts)``,
-  we are able to define macros inside "Type" module.
+  we can define macros inside "Type" module.
 
 - ``deftype.ex``:
   ```elixir
@@ -95,6 +95,6 @@ On reflection, I found an approach to create a ``deftype`` macro.
   end
   ```
   Don't forget to require "XXXType" when you use it in a new module.
-  Now, code becomes more clean when you define enumeration.
-  By this way, you don't have to define function or macro anymore to declare something's type.
+  Now, code becomes cleaner when you define enumeration.
+  In this way, you don't have to define function or macro anymore to declare something's type.
 
