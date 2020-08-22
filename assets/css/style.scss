@@ -27,7 +27,7 @@ ul:last-child { margin-bottom: 1rem; }
 @media screen and (max-width: 42em) { .nav-header { padding: 0.4rem 0.6rem; height: 7.7rem; }
                                       .btn { font-size: 1rem; display: inline-block; margin-bottom: 0.6rem; }
                                       .btn + .btn { margin-top: 0rem; } }
-.main-content { letter-spacing: 0.1rem; }
+.main-content { letter-spacing: 0.02rem; }
 @media screen and (min-width: 64em) { .main-content { font-size: 1rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .main-content { font-size: 1rem; } }
 @media screen and (max-width: 42em) { .main-content { font-size: 0.9rem; } }
