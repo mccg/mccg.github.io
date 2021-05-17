@@ -6,3 +6,4 @@ gem 'therubyracer'
 gem 'jemoji'
 gem "rubyzip", ">= 2.0.0"
 gem "nokogiri", ">= 1.10.4"
+gem "webrick", "~> 1.7"
